@@ -21,7 +21,7 @@
   }
   
   .sidebar a:hover {
-    color:lightyellow;
+    color:rgb(0, 0, 0);
   }
   
   .sidebar .closebtn {
@@ -35,8 +35,8 @@
   .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color:lightyellow;
-    color:rgb(59,58,58);
+    background-color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     padding: 10px 15px;
     border: none;
   }
@@ -56,5 +56,5 @@
     .sidebar a {font-size: 18px;}
   }
   body{
-    background-color:black
+    background-color:rgb(255, 255, 255)
   }
