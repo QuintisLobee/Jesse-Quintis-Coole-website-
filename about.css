@@ -55,3 +55,17 @@
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+ #tekst1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+  text-align: center;
+         }
+         h2{
+          text-align: center;
+         }
+         
+    
+    
+  
