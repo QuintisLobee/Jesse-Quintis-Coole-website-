@@ -6,7 +6,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color:purple;
+  background-color:black;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -36,14 +36,14 @@
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color: gray;
-  color: white;
+  background-color: black;
+  color:white;
   padding: 10px 15px;
   border: none;
 }
 
 .openbtn:hover {
-  background-color: lightslategray;
+  background-color:gray;
 }
 
 #main {
