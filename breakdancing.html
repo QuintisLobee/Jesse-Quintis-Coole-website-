@@ -7,6 +7,30 @@
     <title>Document</title>
 </head>
 <body>
+    <link rel="stylesheet" href="breakdancing.css">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">home</a>
+        <a href="About.html">about</a>
+        <a href="eventpage.html">events</a>
+        <a href="contact.html">contact</a>
+      </div>
+    
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
+      
+      <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>   
     
 </body>
 </html>
