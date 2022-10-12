@@ -63,36 +63,19 @@ body{
 background-color:black  
 }
 
-body {
-  background-image: url('841b81f3c33b919355b40c936426ba47.gif');
-  background-color: #cccccc;
-  position: absolute;
-background-size: 10px;
 
 
-  background-size: cover;
-  
-  
-  size: 10px;
-  height: 10px;
-  padding:0;
-  margin:0;
 
-color: aqua;
-}
-
-.text1{
-  margin-left: auto; margin-right: auto;
-color: beige;
-text-align: center;
-margin-top: 90%;
-position: absolute;
-}
 
 
 body {
-background: url("j8IEfV4.gif") center;
-background-repeat: no-repeat;
-background-size: 40%;
-background-color: rgb(73, 73, 73);
+  background: url("j8IEfV4.gif") center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-color: rgb(73, 73, 73);
+  }
+
+.C{
+ text-align: center;
+ color:white; 
 }
