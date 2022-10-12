@@ -18,7 +18,7 @@
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: rgb(88, 0, 0);
+  color: rgb(249, 248, 248);
   display: block;
   transition: 0.3s;
 }
@@ -61,6 +61,8 @@
 
 body{
 background-color:black  
+
+
 }
 
 
@@ -69,11 +71,17 @@ background-color:black
 
 
 body {
+  border: 500px;
+  border: solid 5px;
+  border-color: white;
+  border-radius: 5px;
+  height: 400px;
   background: url("j8IEfV4.gif") center;
   background-repeat: no-repeat;
   background-size: 40%;
   background-color: rgb(73, 73, 73);
-  }
+
+}
 
 .C{
  text-align: center;
