@@ -55,3 +55,22 @@
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+  .image1 {
+    position: fixed;
+    right: 100px;
+    top: 90px;
+    width: 100px;
+    height: 400px;
+    background-image: url('https://blackbeltmag.com/media-library/image.jpg?id=23508694&width=1245&height=700&quality=85&coordinates=0%2C66%2C0%2C66');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+  }
+  body {
+    background-image: url("https://i.pinimg.com/564x/35/ec/f8/35ecf81e0f0a0ad349d99b08cda8e56c.jpg");
+    background-color: #cccccc;
+    background-size:cover;
+  }
+  .image1 {
+    object-position: right;
+  }
