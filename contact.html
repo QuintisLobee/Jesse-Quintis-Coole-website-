@@ -15,7 +15,7 @@
         <a href="eventpage.html">events</a>
         <a href="contact.html">contact</a>
       </div>
-      
+              
       <div id="main">
         <button class="openbtn" onclick="openNav()">☰</button>
       </div>
@@ -30,6 +30,59 @@
         document.getElementById("mySidebar").style.width = "0";
         document.getElementById("main").style.marginLeft= "0";
       }
-      </script>       
-</body>
+      </script>    
+     <h1>Onze contact gegevens</h1>
+     <div class="card">
+     
+      <div class="container">
+        <h4><b>Quentes</b></h4>
+        <p>E-mail: 514539@vistacollege.nl</p>
+      <p>Insta: Quintu.373<p>
+        <p>Nummer: 0683608488</p>
+      </div>
+    </div>
+    <div class="card">
+      
+      <div class="container">
+        <h4><b>Dylan</b></h4>
+        <p>E-mail: 513538@vistacollege.nl</p>
+        <p>Insta: _dylan.420</p>
+        <p>Nummer: 0615555762</p>
+      </div>
+    </div>
+    <div class="card">
+      
+      <div class="container">
+        <h4><b>Jesse</b></h4>
+        <p>E-mail:531902@vistacollege.nl</p>
+        <p>Insta: Jesse_Jongen</p>
+        <p>Nummer: 0638132023</p>
+      </div>
+    </div>
+
+<h2>Geef Feedback!<h2>
+</body> <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Nederland</option>
+            <option value="canada">Belgie</option>
+            <option value="usa">Duitsland </option>
+
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit"> 
+      
+        </form>
+      </div>           
 </html>
