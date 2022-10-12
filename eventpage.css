@@ -138,6 +138,11 @@
         
 
   body{
-    background-color:black
+    
+      background: url("825488f7859acb3fac46bae10607618a.png") center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-color: rgb(73, 73, 73);
+    height: 550px;
   }
  

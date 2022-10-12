@@ -55,3 +55,12 @@
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+
+  .b{
+    color: rgb(255, 255, 255);
+    text-align: center;
+   font-family: 'Times New Roman', Times, serif; 
+  }
+  body{
+  background-color: rgb(156, 95, 149);
+  }
