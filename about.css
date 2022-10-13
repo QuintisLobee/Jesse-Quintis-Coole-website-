@@ -68,8 +68,13 @@
           color: white;
          }
 body{
-  background-color:black
-}
+background-image: url(AjarJaggedClumber-size_restricted.gif);
+background-repeat: no-repeat;
+      background-size: 100%;
+      background-color: rgb(73, 73, 73);
+    height: 550px;
+  }
+
 
 
 
