@@ -55,3 +55,20 @@
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+  body {
+    background-image: url(https://www.basic-fit.com/dw/image/v2/BDFP_PRD/on/demandware.static/-/Library-Sites-basic-fit-shared-library/default/dw8e97351f/Roots/Blog/Blog-Header/1088x612/19-03-Blog-Fitness-Information-Work-Training.jpg?sw=968 );
+  background-size: cover;
+  }
+  text {
+    position: fixed;
+    width: 300px;
+  }
+  table { 
+    top: 360px;
+    width: 850px;
+   height: 100px;
+    position: fixed;
+    left: 15px;
+    border: 1px solid;
+    color: black;
+  }

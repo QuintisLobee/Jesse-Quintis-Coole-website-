@@ -72,6 +72,18 @@
     background-size:cover;
   }
  .text1 {
-  text-align:center;
+  top: 110;
+  width: 400px;
+  position: absolute;
+  text-align:flex;
+  left: 20px;
   color: wheat;
  }
+ table {
+  width: 850px;
+ height: 100px;
+  position: fixed;
+  right: 160px;
+  border: 1px solid;
+  color: wheat;
+}
